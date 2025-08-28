@@ -1,0 +1,528 @@
+@media screen and (max-width: 1303px) {   
+    .container-contact-us h2 {
+        order: -1;
+        width: 100%;
+        text-align: center;
+        margin: 60px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 1260px) {
+    .item-block {
+        width: 280px;
+    }
+    .first {
+        background-image: url(../img/first_768.png);
+    }
+    .second {
+        background-image: url(../img/second_768.png);
+    }
+    .third {
+        background-image: url(../img/third_768.png);
+    }
+    .fourth {
+        background-image: url(../img/fourth_768.png);
+    }
+    .fifth {
+        background-image: url(../img/fifth_768.png);
+    }
+    .sixth {
+        background-image: url(../img/sixth_768.png);
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    .service-button {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    .welcome-container-content{
+        flex-direction: row-reverse;
+    }
+    .welcome-plants-section {
+        padding-left: 0;
+        width: 53%;
+    }
+    .welcome-img-block {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    .welcome-img-block {
+        width: 47%;
+    }
+    .container-main-welcome {
+        padding: 52px 0;
+    }
+    .about-block {
+        flex-wrap: wrap;
+    }
+    .about-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .about-img img {
+        width: 350px;
+    }
+    .gardeners-block {
+        width: 100%;
+    }
+    .gardeners-block h2 {
+        text-align: center;
+    }
+    .item-block {
+        max-width: 329px;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    .service-item {
+        justify-content: center;
+        column-gap: 145px;
+    }
+    .prices-block h2{
+        font-size: 35px;
+        margin: 38px 0 61px 0px;
+    }
+    .contact-us-block h2 {
+        width: 460px;
+        margin: 38px 0 0 0;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: right;
+        color: #000000;
+        width: 260px;
+    }
+    .block-contact-us-img {
+        order: 3;
+        margin: 200px auto 0 auto;
+    }
+    .block-city-for-img {
+        width: 100%;
+    }
+    .city-container {
+        margin: 100px auto 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .welcome-plants-section h1 {
+        font-size: 35px;
+        margin-top: 35px;
+    }
+    .welcome-plants-section p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 25px;
+    }
+    .container-main-welcome {
+        padding: 42px 0;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    .welcome-img-block {
+        display: flex;
+        align-items: start;
+        justify-content: flex-start;
+    }
+    .welcome-img-block img {
+        margin-top: 25px;
+    }
+    .item-block {
+        max-width: 280px;
+    }
+    .service-item {
+        justify-content: center;
+        column-gap: 20px;
+    }
+    .contact-us-block button {
+        margin: 41px 0 0 120px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .header-container-content,
+    .welcome-container-content,
+    .container-prices-block,
+    .container-contact-us,
+    .container-footer{
+        padding: 0 50px;
+    }
+    .container-main-welcome
+     {
+        padding: 32px 0;
+    }
+    .about-img img {
+        width: 250px;
+        height: 258px;
+    }
+    .container-about-block {
+        padding: 40px 50px 92px 50px;
+    }
+    .container-service-block {
+        padding: 62px 50px 121px 50px;
+    }
+    .service-button {
+        padding: 23px 0 0 0;
+    }
+    .service-item {
+        margin: 40px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-header-block header {
+        padding: 35px 0;
+    }
+    .container-main-welcome {
+        padding: 0;
+    }
+    .welcome-plants-section p {
+        margin: 33px 0 0 5px;
+    }
+    .welcome-plants-section button {
+        margin: 34px 0 69px 0;
+    }
+    .welcome-img-block img {
+        max-width: 448px;
+        min-width: 240px;
+        margin: 25px 0 0 25px;
+    }
+    .gardeners-block h2 {
+        font-size: 35px;
+        line-height: 46px;
+        margin: 1px auto;
+        max-width: 430px;
+    }
+    .gardeners-block p {
+        margin-top: 50px;
+    }
+    .about-img img {
+        margin-top: 48px;
+    }
+    .service-content {
+        box-sizing: border-box;
+        padding: 0 6px;
+    }
+    .service-content p {
+        margin: 11px 0 18px 0;
+    }
+    .service-block h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+    .service-item {
+        margin-left: 1px;
+        row-gap: 37px;
+        justify-content: space-between;
+    }
+    .container-service-block {
+        padding-bottom: 70px;
+    }
+    .prices-block {
+        margin-bottom: 164px;
+    }
+    .prices-block h2 {
+        margin: 36px 0 54px 14px;
+    }
+    .tariff-plan p {
+        margin: 3px 0 0 41px;
+    }
+    .tariff-plan img {
+        margin: 2px 39px 0 0;
+    }
+    .contact-us-block h2 {
+        margin: 139px 0 0 0;
+        width: 282px;
+    }
+    .contact-us-block button {
+        margin: -59px 0 0 26px;
+    }
+    .contact-us-block img {
+        margin-top: -62px;
+    }
+    .container-contact-us h2 {
+        margin-top: 43px;
+    }
+    .block-contact-us-img {
+        padding-left: 20px;
+        margin: 200px auto 0 auto;
+    }
+    .contact-us-img {
+        width: 200px;
+        height: 248px;
+        margin-top: 49px;
+    }
+    .container-footer p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .container-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 28px;
+    }
+    .container-footer ul {
+        margin: -3px 0 9px 0;
+    }
+    .block-github {
+        width: 100%;
+        text-align: center;
+        margin: 29px 3px 0 0;
+    }
+    .rs-school {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .container-footer ul li:first-child {
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 717px)  {
+    .contact-us-block h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-us-block {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .nav ul li {
+        margin-right: 25px;
+    }
+    .service-button button {
+        width: 121px;
+        height: 35px;
+        font-family: 'Inika';
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .service-item {
+        justify-content: center;
+    }
+    .service-button {
+        flex-wrap: wrap;
+    }
+    .container-prices-block {
+        flex-wrap: wrap;
+    }
+    .prices-block {
+        width: 100%;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    } 
+    .prices-block h2 {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-us-block {
+        width: 100%;
+    }
+    .contact-us-block h2 {
+        width: 100%;
+        margin: 17px 40px 0 40px;
+    }
+    .contact-us-block button {
+        margin: 20px auto 39px auto;
+    }
+    .contact-us-block img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .nav ul li {
+        margin-right: 15px;
+    }
+    .nav ul li a{
+        font-size: 16px;
+    }
+    .header-container-content,
+    .welcome-container-content,
+    .container-about-block,
+    .container-prices-block,
+    .container-contact-us,
+    .container-footer{
+        padding: 0 15px;
+    }
+    .welcome-img-block {
+        display: none 
+    }
+    .welcome-plants-section {
+        width: 100%;
+    }
+    .container-service-block {
+        padding: 30px 15px 27px 15px;
+    }
+}
+
+@media screen and (max-width:506px) {
+    .service-block h2 {
+        width: 185px;
+        font-size: 25px;
+        line-height: 33px;
+        margin-left: 10px;
+    }
+    .service-button {
+        margin: 14px 0 0 9px;
+        row-gap: 9px;
+    }
+    .service-button button {
+        margin-right: 10px;
+    }
+    .city-container {
+        width: 300px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav ul li{
+        margin-right: 10px;
+    }
+    .nav ul li a{
+        font-size: 14px;
+    } 
+    .nav{
+        display: none;
+    }
+    .container-burger-menu {
+        display: block;
+    }
+    .header-container-content{
+        padding: 0 25px;
+        height: 24px;
+    }
+    .container-logo {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .welcome-plants-section h1 {
+        margin: 28px 0 0 9px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .welcome-plants-section p {
+        margin: 20px 0 0 10px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .welcome-plants-section button {
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 20px;
+        margin: 25px 0 23px 10px;
+    }
+    .gardeners-block{
+        padding: 0 10px;
+    }
+    .gardeners-block h2 {
+        font-size: 25px;
+        line-height: 33px;
+        margin-top: 31px;
+    }
+    .gardeners-block p {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 15px 0 1px 0;
+    }
+    .about-img img {
+        width: 150px;
+        height: 150px;
+        margin: 0 0 30px 0;
+    }
+    .service-item {
+        row-gap: 33px;
+    }
+    .item-block {
+        margin-right: 4px;
+    }
+    .service-img {
+        min-width: 280px;
+    }
+    .prices-block h2 {
+        font-size: 25px;
+        margin: 15px 0 0 0;
+    }
+    .tariff-plan-block {
+        width: 223px;
+        margin: 29px 0 0 0;
+        padding: 15px 0;
+    }
+    .tariff-plan {
+        width: 180px;
+        margin: 14px auto;
+    }
+    .tariff-plan p {
+        font-size: 15px;
+        margin: 0 0 0 31px;
+    }
+    .contact-us-block h2 {
+        font-size: 20px;
+        font-weight: 35px;
+    }
+    .contact-us-block button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .container-contact-us h2{
+        font-size: 25px;
+        line-height: 33px;
+        margin-top: 26px;
+    }
+    .city-container {
+        margin-top: 81px;
+    }
+    .city-container img {
+        margin-right: 22px;
+    }
+    .block-contact-us-img {
+        padding-left: 0;
+        margin: 132px auto 0 auto;
+        width: 100px;
+        height: 124px;
+    }
+    .contact-us-img {
+        width: 100px;
+        height: 124px;
+        margin: 0 0 0 -2px;
+    }
+    .container-footer ul li {
+        margin-left: 20px;
+    }
+    .container-footer ul {
+        margin: -16px 0 15px 0;
+    }
+    .block-github {
+        margin-top: 22px;
+    }
+}

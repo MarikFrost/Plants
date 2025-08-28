@@ -1,0 +1,565 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+                                /*HEADER STYLE*/
+.container-header-block {
+    background-color: #EDF2EC;
+    padding-right: calc((100% - 1440px) / 2);
+    padding-left: calc((100% - 1440px) / 2);
+}
+
+.container-header-block header {
+    padding: 42px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.header-container-content {
+    max-width: 1220px;
+    padding: 0 109px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 50px;
+}
+
+.container-burger-menu {
+    display: none;
+    background-image: url(../img/burger.png);
+    width: 40px;
+    height: 26px;
+}
+
+.container-logo {
+    width: 79px;
+    height: 22px;
+    margin-top: -8px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-logo p {
+    margin: 0px 0px -4px 0;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav ul {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav ul li{
+    margin-right: 47px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav ul li a {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #010201;
+    transition-duration: 500ms;
+    transition-property: color;
+}
+
+.nav ul li a:hover {
+    font-weight: 700;
+    color: #E06733;
+}
+                                    /*HEADER STYLE*/
+                                    /*MAIN STYLE*/
+                /*Welcome style*/
+.container-main-welcome{
+    max-width: 1440px;
+    padding: 62px 0 55px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.welcome-container-content {
+    max-width: 1220px;
+    padding: 0 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-img-block {
+    width: 50%;
+}
+
+.welcome-img-block img {
+    max-width: 448px;
+    min-width: 240px;
+}
+
+.welcome-plants-section {
+    width: 50%;
+    padding-left: 63px;
+    box-sizing: border-box;
+}
+
+.welcome-plants-section h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #717171;
+    margin-top: 35px;
+    line-height: 50px;
+}
+
+.welcome-plants-section h1 span,
+.gardeners-block h2 span,
+.contact-us-block h2 span{
+    color: #499A18;
+}
+
+.welcome-plants-section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-top: 45px;
+}
+
+.welcome-plants-section button {
+    width: 158px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 27px;
+}
+                /*About style */
+.background-container-about-block {
+    background-color: #ffffff;
+}
+
+.container-about-block {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 92px 109px;
+}
+
+.about-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gardeners-block {
+    width: 49%;
+}
+
+.gardeners-block h2 {
+    margin-top: 67px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #E06733;
+}
+
+.gardeners-block p {
+    margin-top: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+                /*Style service */
+.container-service-block {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 110px 121px 110px;
+}
+
+.container-servise-content {
+    max-width: 1043px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 45px;
+}
+
+.service-block h2{
+    max-width: 306px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 0;
+}
+
+.service-button {
+    display: flex;
+    align-items: center;
+}
+
+.service-button button {
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    margin-right: 38px;
+}
+
+.item-block {
+    width: 329px;
+}
+
+.item-block:hover {
+    cursor: pointer;
+    box-shadow: 9px 9px 9px #717171;
+    border-radius: 20px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 78px 0 0 0;
+    column-gap: 10px;
+    row-gap: 54px;
+}
+
+.service-img {
+    width: 100%;
+    height: 350px;
+}
+
+.first {
+    background-image: url(../img/first.png);
+}
+
+.second {
+    background-image: url(../img/second.png);
+}
+
+.third {
+    background-image: url(../img/third.png);
+}
+
+.fourth {
+    background-image: url(../img/fourth.png);
+}
+
+.fifth {
+    background-image: url(../img/fifth.png);
+}
+
+.sixth {
+    background-image: url(../img/sixth.png);
+}
+
+.service-content {
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.service-content h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.service-content p {
+    margin: 13px 0 36px 0;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+            /*Style prices */
+.container-prices-block {
+    max-width: 1220px;
+    padding: 0 110px 114px 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prices-block h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    margin: 38px 0 61px 0px;
+}
+
+.tariff-plan-block {
+    width: 330px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+
+.tariff-plan {
+    width: 250px;
+    height: 50px;
+    background-color: #EDF2EC;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto 32px auto;
+}
+
+.tariff-plan:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 9px #717171;
+}
+
+.tariff-plan img {
+    width: 16px;
+    height: 16px;
+    margin: 0 42px 0 0;
+}
+
+.tariff-plan p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    margin-left: 38px;
+}
+
+.contact-us-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 460px;
+}
+
+.contact-us-block h2 {
+    width: 460px;
+    margin: 38px 0 0 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: #000000;
+}
+
+.contact-us-block button {
+    width: 162px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #E06733;
+    margin: 41px 0 0 150px;
+    transition-duration: 500ms;
+    background-color: #ffffff;
+}
+
+body button:hover {
+    cursor: pointer;
+    background-color: hsl(19, 26%, 73%);
+    box-shadow: 1px 1px 5px #E06733, -1px -1px 5px #E06733;
+}
+
+.contact-us-block img {
+    width: 152px;
+    height: 174px;
+    margin-top: 40px;
+}
+                /*Style contact us */
+.background-container-contact-us-block {
+    background-color: #EDF2EC;
+}
+
+.container-contact-us {
+    padding: 0 110px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1220px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.contact-us-img {
+    margin-top: 53px;
+}
+
+.container-contact-us h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 60px 0 0 42px;
+}
+
+.city-container {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 50px;
+    background-color: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.city-container:hover {
+    cursor: pointer;
+}
+
+.city-container p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    margin: 0 0 0 20px;
+}
+
+.city-container img {
+    width: 16px;
+    height: 16px;
+    margin-right: 35px;
+}
+                /*Style footer */
+.background-container-footer {
+    background-color: #ffffff;
+}
+
+.container-footer {
+    display: flex;
+    max-width: 1220px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 110px;
+    min-height: 130px;
+}
+
+.container-footer ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: -10px 0 0 0;
+    list-style: none;
+}
+
+.container-footer ul li {
+    height: 32px;
+    margin-left: 20px;
+}
+
+.container-footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.block-github{
+    margin-top: 7px;
+}
+
+.block-github span {
+    margin-left: 20px;
+}
+
+.block-github a {
+    margin-left: 15px;
+}
+
+.block-github a:hover {
+    cursor: pointer;
+    color: #717171;
+}
+
+.rs-school {
+    margin: -11px 0px 0 40px;
+}
+
+.rs-school a:hover {
+    cursor: pointer;
+    color: #717171;
+}
+
+.social-media li a img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
